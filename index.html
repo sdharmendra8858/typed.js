@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INTRODUCTION</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="intro">
+        <h1>I am a <span class="type"></span></h1>
+        <div class="contain">
+            <img src="photos/d9.jpeg" alt="dharam">
+        </div>
+        <div class="name">
+            <h2>Dharmendra verma</h2>
+            <p>coder...</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script>
+        var typed = new Typed(".type", {
+        // Waits 1000ms after typing "First"
+        strings: ["Web Developer.", "UI/UX Designer", "Programmer."],
+        smartBackspace: true,
+        typeSpeed: 50,
+        startDelay:50,
+        backSpeed:50,
+        smartBackspace:false,
+        shuffle:false,
+        backDelay:50,
+        fadeOut:false,
+        fadeOutClass:'typed-fade-out',
+        fadeOutDelay:100,
+        loop:true,
+        loopCount:Infinity,
+        showCursor:true,
+        cursorChar:'|',
+        autoInsertCss:true
+        });
+    </script>
+</body>
+</html>
